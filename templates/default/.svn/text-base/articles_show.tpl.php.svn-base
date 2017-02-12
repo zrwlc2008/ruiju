@@ -1,0 +1,82 @@
+<?php
+$pagetitle="文章页面";
+include('header.php');
+?>
+
+<div class="site_container">
+
+		<?php
+			$banner_width = 960 ;
+			$banner_height = 200 ;
+			include(WEB_TPL . 'library/banner_slider.lib.php');
+		?>
+
+	  <!--所在位置div -->
+  	  <?php include('library/ur_here.lib.php');?>
+
+      <!-- 左侧框架 开始-->
+	 <div id="site_left">
+      <?php include('left_articles.tpl.php');?>
+     </div>
+     <!-- 左侧框架 结束-->
+
+	  <div id="site_content_area">
+
+	  	<!-- 右侧框架 开始-->
+	    <div id="site_right">
+          <!-- 右侧框架数据区域 开始-->
+	      <div class="site_section">
+	      	<!--数据区域title 开始-->
+	        <div class="site_section_title">
+		          <h3>
+		          	<?php echo $classinfo['title'];?>
+		          </h3>
+	        </div>
+	        <!--数据区域title 结束-->
+
+	        <!--文章内容 开始-->
+	        <div id="site_show">
+	          <?
+	          	//如果不是公司简介才显示,$isIntro变量从menus.lib.php的链接中传来
+	          	 if(empty($isIntro)){
+	          ?>
+	          <h1><font color="<?php echo $info['titlecolor'];?>"><?php echo $info['title'];?></font></h1>
+	          <div class="time">发布时间：<?php echo date('Y-m-d H:i',$info['addtime'])?> 作者：<?php echo $info['author'];?> 浏览：<?php echo $info['clicks'];?></div>
+	          <?
+	          	 }
+	          ?>
+
+	           <!--文章内容-->
+	          <div class="content"><?php echo $info['content'];?></div>
+
+	           <?
+	           	 //如果不是公司简介才显示,$isIntro变量从menus.lib.php的链接中传来
+	          	 if(empty($isIntro)){
+	           ?>
+	          <div class="content_url"> <span>欢迎转载本文网址：</span><?php echo 'http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]?>  </div>
+	          <div class="frominfo">
+	            <?php
+					if(!empty($info['fromlinkurl']) &&  !empty($info['fromtitle'])) {
+						echo '来源：<a href="'.$info['fromlinkurl'].'" target="_blank">'.$info['fromtitle'].'</a>';
+					}
+					?>
+	          </div>
+	           <?
+	          	  }
+	           ?>
+	          <div class="clear"></div>
+	     	</div>
+	     	<!--文章内容 结束-->
+      </div>
+      <!-- 右侧框架数据区域 结束-->
+    </div>
+    <!-- 右侧框架 结束 -->
+
+    <div class="cleaner"></div>
+  </div>
+  <!-- End Of Content area -->
+</div>
+<!-- End Of Container -->
+<?php
+include('footer.php');
+?>

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/6/abhx_test/include/model
+END
+links_class.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6/abhx_test/include/model/links_class.class.php
+END
+users_class.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6/abhx_test/include/model/users_class.class.php
+END
+articles.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/6/abhx_test/include/model/articles.class.php
+END
+ads.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/6/abhx_test/include/model/ads.class.php
+END
+articles_class.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/6/abhx_test/include/model/articles_class.class.php
+END
+keys.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6/abhx_test/include/model/keys.class.php
+END
+ads_class.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/abhx_test/include/model/ads_class.class.php
+END
+links.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6/abhx_test/include/model/links.class.php
+END
+users.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6/abhx_test/include/model/users.class.php
+END
+users_log.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/abhx_test/include/model/users_log.class.php
+END
+adflash.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/6/abhx_test/include/model/adflash.class.php
+END
+users_classpower.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6/abhx_test/include/model/users_classpower.class.php
+END

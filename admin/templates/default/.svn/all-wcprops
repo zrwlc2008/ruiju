@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/10/abhx_test/admin/templates/default
+END
+users_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6/abhx_test/admin/templates/default/users_list.tpl.php
+END
+adflash_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/6/abhx_test/admin/templates/default/adflash_list.tpl.php
+END
+users_log_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6/abhx_test/admin/templates/default/users_log_list.tpl.php
+END
+links_class_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/abhx_test/admin/templates/default/links_class_list.tpl.php
+END
+footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/6/abhx_test/admin/templates/default/footer.php
+END
+filecheck_dofile.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/6/abhx_test/admin/templates/default/filecheck_dofile.php
+END
+ads_class_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6/abhx_test/admin/templates/default/ads_class_edit.tpl.php
+END
+articles_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6/abhx_test/admin/templates/default/articles_list.tpl.php
+END
+sitemaps_step0.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6/abhx_test/admin/templates/default/sitemaps_step0.php
+END
+sitemaps_step1.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6/abhx_test/admin/templates/default/sitemaps_step1.php
+END
+users_classpower.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/abhx_test/admin/templates/default/users_classpower.tpl.php
+END
+users_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6/abhx_test/admin/templates/default/users_edit.tpl.php
+END
+errorinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6/abhx_test/admin/templates/default/errorinfo.php
+END
+adflash_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/6/abhx_test/admin/templates/default/adflash_edit.tpl.php
+END
+login.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6/abhx_test/admin/templates/default/login.tpl.php
+END
+links_class_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/abhx_test/admin/templates/default/links_class_edit.tpl.php
+END
+articles_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6/abhx_test/admin/templates/default/articles_edit.tpl.php
+END
+users_class_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/abhx_test/admin/templates/default/users_class_list.tpl.php
+END
+filecheck_default.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6/abhx_test/admin/templates/default/filecheck_default.php
+END
+articles_class_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6/abhx_test/admin/templates/default/articles_class_list.tpl.php
+END
+header.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/10/abhx_test/admin/templates/default/header.php
+END
+users_class_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/abhx_test/admin/templates/default/users_class_edit.tpl.php
+END
+articles_class_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6/abhx_test/admin/templates/default/articles_class_edit.tpl.php
+END
+ads_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6/abhx_test/admin/templates/default/ads_list.tpl.php
+END
+keys_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/6/abhx_test/admin/templates/default/keys_list.tpl.php
+END
+index.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6/abhx_test/admin/templates/default/index.tpl.php
+END
+links_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6/abhx_test/admin/templates/default/links_list.tpl.php
+END
+ads_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6/abhx_test/admin/templates/default/ads_edit.tpl.php
+END
+filecheck_checkfile.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/abhx_test/admin/templates/default/filecheck_checkfile.php
+END
+sys.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6/abhx_test/admin/templates/default/sys.tpl.php
+END
+keys_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/6/abhx_test/admin/templates/default/keys_edit.tpl.php
+END
+links_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6/abhx_test/admin/templates/default/links_edit.tpl.php
+END
+txt_forbiddenip.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/6/abhx_test/admin/templates/default/txt_forbiddenip.php
+END
+ads_class_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6/abhx_test/admin/templates/default/ads_class_list.tpl.php
+END

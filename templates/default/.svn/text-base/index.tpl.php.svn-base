@@ -1,0 +1,71 @@
+<?php
+$pagetitle="首页";
+include('header.php');
+?>
+
+<div class="site_container">
+
+  <div id="site_content_area">
+
+	<?php
+		$banner_width = 960 ;
+		$banner_height = 480 ;
+		include(WEB_TPL . 'library/banner_slider.lib.php');
+	?>
+
+  	 <!-- 滚动工程案例 开始 -->
+	  <div class="site_section">
+	    <div class="site_section_title">
+	      <h3>工程案例</h3>
+	    </div>
+	    <div class="site_section_1" style="position:relative; ">
+	    	<div id="productListBox" style="margin:auto; ">
+		      <ul class="productList">
+		        <?php
+
+		        //当前类型 +　其所有子类
+				$products_class->SetProductSubClassString(1 , true);
+				$subClassStr = $products_class->GetProductSubClassString();
+
+				$data = $products->GetList(array('id','classid','title','addtime', 'titlecolor', 'thumb', 'filename'),'0','6',' classid IN ('. $subClassStr .') AND isplay = 1 ','addtime desc,id desc');
+				include('library/productspiclist.lib.php');?>
+		      </ul>
+	      	</div>
+	      	<div id="btnL" style="float:left; position:absolute; left:0px; top:90px ;">
+	      			<a href="javascript:void(0)" id="scrollBtnL">
+	      				<img src="images/arrow_go_left.png" alt="">
+	      			</a>
+	      	</div>
+	      	<div id="btnR" style="float:right; position:absolute; right:0px; top:90px ;">
+	      			<a href="javascript:void(0)" id="scrollBtnR">
+	      				<img src="images/arrow_go_right.png" alt="">
+	      			</a>
+	        </div>
+	    </div>
+	  </div>
+
+	  <script type="text/javascript" src="js/scroll-pic.js"></script>
+	  <script type="text/javascript">
+		$(document).ready(function() {
+			var scrollPic_01 = new ScrollPic();
+			scrollPic_01.scrollContId = "productListBox"; // 内容容器ID
+			scrollPic_01.arrLeftId = "scrollBtnL";// 左箭头ID
+			scrollPic_01.arrRightId = "scrollBtnR"; // 右箭头ID
+			scrollPic_01.frameWidth = 880;// 显示框宽度
+			scrollPic_01.pageWidth = 222; // 翻页宽度
+			scrollPic_01.speed = 20; // 移动速度(单位毫秒，越小越快)
+			scrollPic_01.space = 5; // 每次移动像素(单位px，越大越快)
+			scrollPic_01.autoPlay = true; // 自动播放
+			scrollPic_01.autoPlayTime = 3; // 自动播放间隔时间(秒)
+			scrollPic_01.initialize(); // 初始化
+		});
+		</script>
+		<!-- 滚动工程案例 结束 -->
+
+  </div>
+</div>
+<!-- 首页主体 结束-->
+<?php //include('library/index_articles_list_r2.lib.php');?>
+<?php
+include('footer.php');
+?>

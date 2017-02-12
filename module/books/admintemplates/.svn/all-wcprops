@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/6/abhx_test/module/books/admintemplates
+END
+books_class_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/abhx_test/module/books/admintemplates/books_class_list.tpl.php
+END
+books_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6/abhx_test/module/books/admintemplates/books_edit.tpl.php
+END
+books_class_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/abhx_test/module/books/admintemplates/books_class_edit.tpl.php
+END
+books_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6/abhx_test/module/books/admintemplates/books_list.tpl.php
+END

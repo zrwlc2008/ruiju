@@ -1,0 +1,72 @@
+/* Demo CSS - You do not need this css in your own slider */
+
+
+#banner-fade,
+#banner-slide{
+	margin-bottom: 20px;
+}
+
+ul.bjqs li img{
+	border-top-right-radius: 7px;
+	-moz-border-top-right-radius: 7px;
+	-webkit-border-top-right-radius:7px;
+	border-top-left-radius: 7px;
+	-moz-border-top-left-radius: 7px;
+	-webkit-border-top-left-radius: 7px;
+
+	border-bottom-right-radius:7px;
+	-moz-border-bottom-right-radius: 7px;
+	-webkit-border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	-moz-border-bottom-left-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a{
+	display:block;
+	width:50px;
+	height:50px;
+	background:url('../../images/arrow-prev.gif');
+	opacity:0.7;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a{
+	display:block;
+	width:50px;
+	height:50px;
+	background:url('../../images/arrow-next.gif');
+	opacity:0.7;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a:hover{
+	background:url('../../images/arrow-prev-hover.gif');
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a:hover{
+	background:url('../../images/arrow-next-hover.gif');
+}
+
+ol.bjqs-markers{
+	position:absolute;
+	bottom:10px ;
+}
+
+ol.bjqs-markers li a{
+	width:20px;
+	height:20px;
+	background:#000;
+	color:#fff;
+	text-decoration: none;
+	background:url('../../images/point_hover.png') no-repeat;
+}
+
+ol.bjqs-markers li.active-marker a{
+	background:url('../../images/point_active.png') no-repeat;
+}
+ol.bjqs-markers li a:hover{
+	background:url('../../images/point_active.png') no-repeat;
+}
+
+p.bjqs-caption{
+	background: rgba(255,255,255,0.5);
+}

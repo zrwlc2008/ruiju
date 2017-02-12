@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/6/abhx_test/data
+END
+adflash.txt
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/6/abhx_test/data/adflash.txt
+END
+forbiddenip.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/6/abhx_test/data/forbiddenip.txt
+END
+install.lock
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/6/abhx_test/data/install.lock
+END

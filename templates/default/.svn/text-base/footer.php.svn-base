@@ -1,0 +1,35 @@
+<div id="site_footer">
+
+  <div id="contact_us">
+	<dl>
+		<dt>
+			联系我们
+		</dt>
+		<dd>
+			<p>电话：010-52461075&nbsp; 010-52451076</p>
+			<p>手机：13011106067&nbsp;&nbsp;&nbsp; 13146241779</p>
+			<p>传真：010-57228846</p>
+			<p>地址：北京市昌平区回龙观鑫地市场7厅B16号</p>
+			<p>邮编：102208</p>
+			</p>
+		</dd>
+	</dl>
+  </div>
+
+  <div id="site_endnav">
+	 <p>Copyright 2013 北京安北鸿信装修装饰公司 保留网站所有权利 </p>
+	 <p> 版权所有 禁止拷贝 </p>
+  </div>
+
+  <div class="clear"></div>
+</div>
+<?php
+if (isset ($config['modtype_module_arr']['services'])) {
+?>
+<script language="javascript" type="text/javascript" src="?c=services&a=list"></script>
+<?php
+
+}
+?>
+<!--  end of bottom  -->
+</body></html>

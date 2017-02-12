@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/6/abhx_test/install/templates/default
+END
+footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/6/abhx_test/install/templates/default/footer.php
+END
+indexstep2.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/6/abhx_test/install/templates/default/indexstep2.tpl.php
+END
+index.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/6/abhx_test/install/templates/default/index.tpl.php
+END
+errorinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/6/abhx_test/install/templates/default/errorinfo.php
+END
+header.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/6/abhx_test/install/templates/default/header.php
+END

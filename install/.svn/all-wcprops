@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/6/abhx_test/install
+END
+zcncms_default.sql
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/6/abhx_test/install/zcncms_default.sql
+END
+zcncms.sql
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/6/abhx_test/install/zcncms.sql
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/6/abhx_test/install/index.php
+END

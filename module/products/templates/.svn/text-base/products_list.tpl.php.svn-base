@@ -1,0 +1,107 @@
+<?php
+//产品中心
+$pagetitle="产品列表";
+include(WEB_TPL . 'header.php');
+?>
+
+<div class="site_container">
+
+<!--滚动banner -->
+<?php
+	$banner_width = 960 ;
+	$banner_height = 200 ;
+	include(WEB_TPL . 'library/banner_slider.lib.php');
+?>
+
+<!--所在位置div -->
+<?php include(WEB_TPL . 'library/ur_here.lib.php'); ?>
+
+<div id="site_content_area">
+
+	<!-- 左边框架 开始-->
+	<div id="site_left">
+      <?php include(WEB_TPL . 'left_products.tpl.php'); ?>
+    </div>
+    <!-- 左边框架 结束-->
+
+    <!-- 右边框架 开始 -->
+	<div id="site_right">
+		<!-- 右边框架数据区域 开始 -->
+	  	<div class="site_section">
+
+	  		<!-- 数据区域title 开始 -->
+	        <div class="site_section_title">
+	          	<h3>
+	          		<?php
+	          			if(isset($info) && !empty($classid)){
+	          				echo $info['title'];
+	          			} else {
+	          				echo $pagetitle;
+	          			}
+	          		?>
+	          	</h3>
+	        </div>
+	        <!-- 数据区域title 结束 -->
+
+			<!-- 产品列表 开始 -->
+	        <div id="site_list">
+	            <?php
+					if($List){
+						foreach($List AS $key=>$value){
+							$classInfo = $products_class->GetInfo(array('id','title','filename'),' id = '.$value['classid'].'');
+
+							if(empty($value['thumb'])) {
+								$value['thumb'] = 'images/default/nopic.gif';
+							}
+				?>
+				<div style="width:30%; float:left ; text-align:center; margin-bttom:10px; padding:5px;">
+	        		<div style="border:#CCCCCC 1px solid; text-align:center; padding:10px; background:#FFFFFF;">
+	          			<div style="padding:0; margin:0;">
+				  			<a href="./<?php echo makeLink('products','show',array('id'=>$value['id'],'filename'=>$value['filename'],'rootid'=>$rootid));?>">
+				  				<img src="<?php echo $value['thumb'];?>" width="100%" height="160" alt="<?php echo $value['title'];?>" border="0" />
+				  			</a>
+				  		</div>
+			          	<div style="margin:10px 0 0 0 ; text-align:center; height:18px; overflow:hidden; font-size:14px; ">
+				          	<a href="./<?php echo makeLink('products','show',array('id'=>$value['id'],'filename'=>$value['filename'],'rootid'=>$rootid));?>" title="<?php echo $value['title'];?>">
+				          		<font color="<?php echo $value['titlecolor'];?>"><?php echo $value['title'];?></font>
+				          	</a>
+				        </div>
+			        </div>
+			    </div>
+
+			 	<?php
+					 	}
+				 	} else {
+			 	?>
+					<div><b>暂无</b></div>
+
+				 <?php
+					 }
+				 ?>
+
+	          		<div class="clear"></div>
+
+					<!-- 分页div -->
+				  	<div class="pagination">
+						<?php echo $showpage; ?>
+				  	</div>
+
+				  	<div class="clear"></div>
+
+	        	</div>
+				<!-- 产品列表 结束 -->
+
+	      	</div>
+			<!-- 右边框架数据区域 结束 -->
+
+	    </div>
+	    <!-- 右边框架 结束 -->
+
+    	<div class="cleaner"></div>
+  </div>
+  <!-- End Of Content area -->
+</div>
+<!-- End Of Container -->
+<?php
+include(WEB_TPL . 'footer.php');
+?>

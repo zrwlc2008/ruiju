@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/6/abhx_test/module/downloads/admintemplates
+END
+downloads_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6/abhx_test/module/downloads/admintemplates/downloads_edit.tpl.php
+END
+downloads_class_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/6/abhx_test/module/downloads/admintemplates/downloads_class_edit.tpl.php
+END
+downloads_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6/abhx_test/module/downloads/admintemplates/downloads_list.tpl.php
+END
+downloads_class_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/6/abhx_test/module/downloads/admintemplates/downloads_class_list.tpl.php
+END

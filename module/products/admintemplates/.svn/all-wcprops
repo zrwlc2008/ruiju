@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/6/abhx_test/module/products/admintemplates
+END
+products_class_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/6/abhx_test/module/products/admintemplates/products_class_edit.tpl.php
+END
+products_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/abhx_test/module/products/admintemplates/products_list.tpl.php
+END
+products_photo_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/6/abhx_test/module/products/admintemplates/products_photo_edit.tpl.php
+END
+products_class_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/6/abhx_test/module/products/admintemplates/products_class_list.tpl.php
+END
+products_photo_list.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/6/abhx_test/module/products/admintemplates/products_photo_list.tpl.php
+END
+products_edit.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/abhx_test/module/products/admintemplates/products_edit.tpl.php
+END
